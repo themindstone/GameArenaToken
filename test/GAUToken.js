@@ -1,6 +1,6 @@
 const { expect } = require("chai");
 
-describe("TrivianToken", function () {
+describe("GAUToken", function () {
   
   let Token;
   let testToken;
@@ -9,12 +9,12 @@ describe("TrivianToken", function () {
   let addr2;
   let addrs;
 
-  const name = 'Trivian Token';
-  const symbol = 'TRIVIA';
+  const name = 'GAU Token';
+  const symbol = 'GAU';
   const decimals = 3;
 
   before(async function () {
-    Token = await ethers.getContractFactory("TrivianToken");
+    Token = await ethers.getContractFactory("GAUToken");
   });
 
   beforeEach(async function () {
