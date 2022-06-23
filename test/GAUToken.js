@@ -9,9 +9,9 @@ describe("GAUToken", function () {
   let addr2;
   let addrs;
 
-  const name = 'GAU Token';
-  const symbol = 'GAU';
-  const decimals = 3;
+  const name = 'GAU Test Token';
+  const symbol = 'GAUT';
+  const decimals = 18;
 
   before(async function () {
     Token = await ethers.getContractFactory("GAUToken");
