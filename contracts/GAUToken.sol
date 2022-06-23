@@ -8,8 +8,8 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol";
 
-contract GAUTestToken is ERC20, ERC20Burnable, Pausable, Ownable, ERC20Permit, ERC20Votes {
-    constructor() ERC20("GAU Test Token", "GAUT") ERC20Permit("GAU Test Token") {
+contract GAUToken is ERC20, ERC20Burnable, Pausable, Ownable, ERC20Permit, ERC20Votes {
+    constructor() ERC20("GAU Token", "GAUT") ERC20Permit("GAU Test Token") {
         _mint(msg.sender, 500000000 * 10 ** decimals());
     }
 
