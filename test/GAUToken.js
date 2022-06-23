@@ -9,7 +9,7 @@ describe("GAUToken", function () {
   let addr2;
   let addrs;
 
-  const name = 'GAU Test Token';
+  const name = 'GAU Token';
   const symbol = 'GAUT';
   const decimals = 18;
 
